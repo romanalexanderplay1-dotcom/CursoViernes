@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+:root{
+    --main-color: #000000;
+    --secondary-color: #A2D5C6;
+    --third-color: #CFFFE2;
+}
+
+.main-header{
+    background-color:var(--main-color);
+    padding: 10px 20px;
+    color: rgb(243, 243, 0);
+}
+
+/* Estilo del logo*/
+
+.logo{
+    border-radius: 15%;
+    height: 50px;
+    vertical-align: middle;
+}
+
+/*estilo del menu principal*/
+.main-nav{
+    display: flex; /*flexbox para alinear elementos*/
+    justify-content: space-between; /*espacia el logo y el menu*/
+    vertical-align: middle; /*Centra verticalmente*/
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex; /* Flexbox para alinear los elementos de la lista */
+    border:#000000;
+}
+
+.nav-menu-item {
+    position: relative; /*clave para el submenu*/
+}
+
+.nav-menu-link {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color:var(--secondary-color);
+    transition: background-color 0.3s;
+}
+
+.nav-menu-link:hover {
+    background-color: #B2B0E8;
+}
+
+/* Estilos de submenu*/
+.submenu {
+    display: none; /* Oculta el submenu por defecto*/
+    position: absolute; /* posiciona el submenu en relacion con el elemento padre*/
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+    min-width: 200px;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #666;
+}
+/*nosotros*/
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    color: var(--main-color);
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+ .contenedor h2{
+    font-size: 36px;
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-1{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+.img-fluid{
+    width: 100%;
+}
+
+.contenedor-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+
+}
+.col{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+

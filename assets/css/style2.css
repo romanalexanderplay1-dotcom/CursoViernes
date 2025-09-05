@@ -1,0 +1,66 @@
+/*IMPORTAR FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+.table{
+    background-color: #c37efa;
+    width: 100%;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+}
+.row-title{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+tr{
+    background-color: rgb(163, 80, 144);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    
+}
+td{
+    padding: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    width: 30%;
+    margin-left: 33%;
+    border-radius: 35px;
+    padding: 15px  15px;
+}
+label{
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+input[type="text"]{
+    width: 80%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    
+}
+input[type="Email"]{
+    width: 80%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    
+}
+.imagen{
+    width: 30%;
+}

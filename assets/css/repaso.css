@@ -1,0 +1,19 @@
+table {
+    border: 1px blue;
+}
+td{
+    padding: 10px;
+}
+
+.titulo{
+    background-color: rgb(77, 23, 170);
+    color: white;
+}
+.img-fluid{
+    width: 100px;
+    height: 100px;
+}
+.bandera{
+    width: 100px;
+    height: 100px;
+}
